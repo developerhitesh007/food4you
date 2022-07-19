@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+@font-face{
+    font-family: "Gabelisa";
+    src: url(font/Gabelisa.otf);
+}
+.bg-main{
+    background-color: rgb(255, 218, 172);
+    height: 100%;
+}
+.bg{
+    clip-path:polygon(0 0, 75% 0%, 65% 100%, 0 100%);
+    background-color: #ffe001;
+    height: 670px;
+    width: 100%
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.mainmenu-header{
+    line-height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+.li{
+    line-height: normal;
+}
+.p-1{
+    padding: 1em 0;
+}
+.logo{
+    width: 180px;
+    height: 45px;
+    position: absolute;
+    z-index: 1;
+}
+.posi-rele{
+    position: relative;
+}
+.pos-ab{
+    position: absolute;
+    z-index: 1;
+}
+.mt-a{
+    margin-top: auto;
+}
+.ml-a{
+    margin-left: auto;
+}
+.menu-item li{
+    font-family: 'Radio Canada', sans-serif;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.linehn{
+    line-height: normal;
+}
+.menu-item li{
+    padding: 20px;
+}
+.menu-item li a{
+    color: black;
+}
+.col-5{
+    width: 50%;
+}
+.txt-al{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+.txt-left{
+    text-align: left;
+    font-size: 37px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 100;
+}
+.hungry{
+    font-size: 50px;
+    font-family:Gabelisa ;
+}
+.dntw{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 90px;
+    font-weight: 100;
+}
+.food{
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+.monday{
+    margin: 20px;
+}
+.underline{
+    border: 0 solid;
+    width: 78%;
+    height: 3px;
+    background-color: gray;
+    margin: 20px auto;
+}
+.flex-grow{
+    flex-grow: 1;
+    padding: 10px;
+}
+.topspace{
+    top: 8em;
+}
+.btn{
+    border: 1px solid;
+    cursor: pointer;
+    padding: 6px 20px;
+}
+
+h5{
+    font-size: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 100; 
+}
+.main-header-img{
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    width: 53%;
+    filter: drop-shadow(5.5px 9.526px 125px rgba(12,13,12,0.31));
+}
+.overflowhid{
+    overflow: hidden;
+}
+.leaf{
+    position: absolute;
+    top: 105px;
+    left: 180px;
+    width: 50px;
+}
+.pasta{
+    position: absolute;
+    top: 105px;
+    right: 640px;
+    animation: jumptop 3s alternate-reverse infinite;
+    transition: all 3s;
+}
+@keyframes jumptop{
+    to{ top: 50px; }
+    from{ top: 110px; }
+}
+.spaghetti{
+    position: absolute;
+    top: 343px;
+    left: -20%;
+}
+.tomato{
+    position: absolute;
+    bottom: 55px;
+    right: 710px;
+    transition: all 3s;
+    animation: jump 3s alternate-reverse infinite;
+    
+}
+.tomato:hover,.pasta:hover{
+    transform: rotate(360deg);
+}
+.leaf2{
+    position: absolute;
+    bottom: 105px;
+    right: 135px;
+    height: 80px;
+    width: 74px;
+    animation: jump 3s alternate-reverse infinite;   
+}
+@keyframes jump{
+    to{ bottom: 30px;}
+    form{bottom: 50px; }
+}
+.choose-enjoy h3{
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+}
+.choose-enjoy h4{
+    text-transform: uppercase;
+}
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: #e8e6a9;
+    margin: 12em 0;
+}
+.my{
+    margin: 5em 0;
+}
+.bread{
+    height: 381px;
+    width: 100%;
+}
+.w-100{
+    width: 100%;
+}
+button{
+    margin: 25px;
+    background-color: #ffe001;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.choose-enjoy{
+    height: 730px;
+}
+.Upcoming img{
+    height: 350px;
+    filter: brightness(0.5);
+}
+.active-img{
+    position: relative;
+    z-index: 1;
+    transform: scale(1.2);
+    filter: brightness(1) !important;
+}
+.pizza img{
+    width: 95%;
+}
+.mt{
+    margin-top: 29px;
+}
+.book h3{
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+}
+.try{
+    position: absolute;
+    top: 60px;
+    left: 226px;
+    color: white;
+    text-transform: uppercase;
+}
+.img-con{
+    position: relative;
+}
+.tl{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 25px;
+    left: 165px;
+}
+.t2{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 70px;
+    left: 165px;
+    width: 165px;
+}
+.tr1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 18px;
+    right: 482px;
+}
+.tr2{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 42px;
+    right: 430px;
+}
+.tr3{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 200px;
+    right: 482px;
+}
+.tr4{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 230px;
+    right: 408px;
+}
+.r1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.row input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+.submit{
+    color: black;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    background-color: #ffe001;
+    cursor: pointer;
+}
+.footar{
+    height: 580px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.logo2{
+    width: 180px;
+    height: 45px;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+.pare-2{
+    color: rgb(255, 252, 248);
+    width: 505px;
+    position: absolute;
+    top: 310px;
+    z-index: 1;
+}
+.pare-3{
+    color: rgb(255, 252, 248);
+    width: 505px;
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+}
+.location{
+    color: yellow;
+    font-size: 30px;
+    top: 320px;
+    left: 750px;
+    position: absolute;
+    z-index: 1;
+}
+.addres{
+    width: 291px;
+    color: white;
+    top: 320px;
+    left: 790px;
+    position: absolute;
+    z-index: 1;
+}
+.mail{
+    color: yellow;
+    font-size: 30px;
+    top: 365px;
+    left: 750px;
+    position: absolute;
+    z-index: 1;
+}
+.gmail{
+    width: 291px;
+    color: white;
+    top: 368px;
+    left: 790px;
+    position: absolute;
+    z-index: 1;
+}   
+.fa-instagram{
+    color: white;
+    top: 500px;
+    right: 290px;
+    position: absolute;
+    z-index: 1;
+}
+.fa-facebook{
+    color: white;
+    top: 500px;
+    right: 260px;
+    position: absolute;
+    z-index: 1;
+}
+.fa-twitter{
+    color: white;
+    top: 500px;
+    right: 230px;
+    position: absolute;
+    z-index: 1;
+}
+.fa-whatsapp{
+    color: white;
+    top: 500px;
+    right: 200px;
+    position: absolute;
+    z-index: 1;
+}
+@media(max-width:576px){
+    .container{
+        width: 100%;
+    }
+    .logo{
+        width: 125px;
+        height: 35px;
+        position: absolute;
+        z-index: 1;
+    }
+    .menu-item{
+        display: none;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .hungry{
+        font-size: 25px;
+    }
+    .dntw{
+        font-size: 50px;
+    }
+    .main-header-img{
+        display: none;
+    }
+    /* .bg-main {
+        background: #ffe001;
+    } */
+}
